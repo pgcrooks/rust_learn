@@ -13,6 +13,13 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "type": "cargo",
+            "subcommand": "run",
+            "problemMatcher": [
+                "$rustc"
+            ]
         }
     ]
 }
